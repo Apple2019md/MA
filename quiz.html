@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Quiz</h1>
+        <nav>
+            <!-- Dropdown code from above -->
+        </nav>
+    </header>
+    <main>
+        <form id="quizForm">
+            <!-- Add questions here with answer options -->
+            <button type="button" onclick="gradeQuiz()">Submit</button>
+        </form>
+        <p id="result"></p>
+    </main>
+    <script>
+        function gradeQuiz() {
+            let score = 0;
+            const totalQuestions = 10; // Update as necessary
+            let correctAnswers = ["A", "B", "C"]; // Example answers
+            // Logic for grading...
+            document.getElementById('result').innerText = `You scored: ${score}%`;
+        }
+    </script>
+</body>
+</html>
