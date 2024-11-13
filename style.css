@@ -1,14 +1,8 @@
-html, body {
-    height: 100%;
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f9;
-    display: flex;
-    flex-direction: column;
-}
-
-body {
-    font-family: Arial, sans-serif;
 }
 
 header {
@@ -35,6 +29,13 @@ footer {
     background-color: #333;
     color: #fff;
 }
+header {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+}
+
 
 .nav {
     display: inline-block;
@@ -72,7 +73,6 @@ footer {
 .dropdown:hover .dropdown-content {
     display: block;
 }
-
 table {
     width: 80%;
     margin: 2rem auto;

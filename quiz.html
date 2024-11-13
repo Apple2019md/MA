@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -9,37 +10,24 @@
     <header>
         <h1>Quiz</h1>
         <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="contact.html">Contact</a>
             <div class="dropdown">
                 <button class="dropbtn">Menu</button>
                 <div class="dropdown-content">
+                    <a href="index.html">Home</a>
                     <a href="definitions.html">Definitions</a>
-                    <a href="research_results.html">R&R</a>
+                    <a href="research_results.html">Research and Results</a>
                     <a href="why.html">Why?</a>
                     <a href="quiz.html">Quiz</a>
                 </div>
+            </div>
         </nav>
     </header>
     <main>
-        <form id="quizForm">
-            <!-- Add questions here with answer options -->
-            <button type="button" onclick="gradeQuiz()">Submit</button>
-        </form>
-        <p id="result"></p>
+        <h2 style="text-align: center;">Test Your Knowledge!</h2>
+        <iframe style="justify-content:center" src="https://docs.google.com/forms/d/e/1FAIpQLSe7G0C94LCBHbEgTamszKRucgR3j99a9iEafifnOmFcNzFVLg/viewform?embedded=true" width="640" height="1000" frameborder="0">Loading…</iframe>
     </main>
-    <script>
-        function gradeQuiz() {
-            let score = 0;
-            const totalQuestions = 10; // Update as necessary
-            let correctAnswers = ["A", "B", "C"]; // Example answers
-            // Logic for grading...
-            document.getElementById('result').innerText = `You scored: ${score}%`;
-        }
-    </script>
     <footer>
-        <p>&copy; 2024 Richard Bernard</p>
+        <p>&copy; 2024 Richard Bernard III</p>
     </footer>
 </body>
 </html>
