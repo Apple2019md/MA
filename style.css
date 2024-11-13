@@ -19,6 +19,7 @@ nav a {
 }
 
 main {
+    flex: 1; /* This makes the main content area take up the available space */
     padding: 2rem;
 }
 
@@ -34,6 +35,7 @@ header {
     background-color: #333;
     color: #fff;
 }
+
 
 .nav {
     display: inline-block;
