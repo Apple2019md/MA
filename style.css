@@ -91,3 +91,31 @@ th {
 tr:nth-child(even) {
     background-color: #f2f2f2;
 }
+/* General Reset and Body Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    
+    /* Background Image of NYC Skyline */
+    background: 
+        linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), /* White overlay with transparency */
+        url('nyc-skylinne.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* Header Styling */
+header {
+    background-color: rgba(44, 62, 80, 0.9); /* Semi-transparent for readability */
+    color: #fff;
+    padding: 1.5rem 0;
+    text-align: center;
+}
+
+/* Rest of the CSS remains the same... */
